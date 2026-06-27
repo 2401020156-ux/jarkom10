@@ -1,0 +1,10 @@
+Jun 24 15:20:54.244 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 24 15:20:54.244 HYPERVISOR: Started on IP = localhost, TCP port = 50387.
+Jun 24 15:20:54.565 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 24 15:20:54.566 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips 
+Jun 24 15:20:54.568 GENERAL: working_dir=C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips
+Jun 24 15:20:54.568 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jun 24 15:20:59.047 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Jun 24 15:20:59.072 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 24 15:20:59.152 HYPERVISOR: Stopped.
+Jun 24 15:20:59.152 GENERAL: reset done.
