@@ -1,0 +1,8 @@
+PC_Client > show ip
+
+NAME        : PC1[1]
+IP/MASK     : 192.168.1.10/27
+GATEWAY     : 192.168.1.1
+
+ip 192.168.1.10 192.168.1.1 27
+save
