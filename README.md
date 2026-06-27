@@ -1,6 +1,6 @@
-# Kelompok 10 — Jaringan Komputer
+# Kelompok 2 — Jaringan Komputer
 
-Repository tugas mata kuliah Jaringan Komputer.
+Repository tugas mata kuliah Jaringan Komputer - IMPLEMENTASI JARINGAN PERUSAHAAN DENGAN REDUNDANSI ROUTING DAN FAILOVER
 
 ## Anggota Kelompok
 
