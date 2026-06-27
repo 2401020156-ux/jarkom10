@@ -1,0 +1,83 @@
+Jun 27 19:14:14.420 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 27 19:14:14.422 HYPERVISOR: Started on IP = localhost, TCP port = 58293.
+Jun 27 19:14:14.925 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 27 19:14:14.925 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips 
+Jun 27 19:14:14.925 GENERAL: working_dir=C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips
+Jun 27 19:14:14.925 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips\ca06f725-624f-43e0-9d77-37fa4d3cce8d 
+Jun 27 19:14:14.929 GENERAL: working_dir=C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips\ca06f725-624f-43e0-9d77-37fa4d3cce8d
+Jun 27 19:14:14.929 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Jun 27 19:14:14.931 VM: VM R2 created.
+Jun 27 19:14:14.931 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5002 
+Jun 27 19:14:14.931 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Jun 27 19:14:14.931 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Jun 27 19:14:14.932 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Jun 27 19:14:14.932 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:14:14.932 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60c09aa0 
+Jun 27 19:14:14.932 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/User/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 27 19:14:14.932 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.4030.0000 
+Jun 27 19:14:14.932 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Jun 27 19:14:14.932 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:14:14.932 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Jun 27 19:14:18.420 HYPERVISOR: exec_cmd: nio create_udp udp-aaa0c70c-5190-46f2-ba2a-5c084b2b1e5b 20036 127.0.0.1 20037 
+Jun 27 19:14:18.702 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-aaa0c70c-5190-46f2-ba2a-5c084b2b1e5b 
+Jun 27 19:14:18.702 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:14:18.742 HYPERVISOR: exec_cmd: nio create_udp udp-df0f2e63-9691-426d-a0ac-b0a58a05fc72 20040 127.0.0.1 20041 
+Jun 27 19:14:18.769 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-df0f2e63-9691-426d-a0ac-b0a58a05fc72 
+Jun 27 19:14:18.769 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:15:08.119 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 27 19:15:08.119 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Jun 27 19:15:08.119 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:15:08.119 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Jun 27 19:15:08.119 HYPERVISOR: exec_cmd: vm start R2 
+Jun 27 19:15:39.670 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:15:39.672 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:17:32.912 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:17:32.912 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 27 19:17:33.052 VM: VM R2 shutdown.
+Jun 27 19:17:33.052 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:17:36.402 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 27 19:17:36.402 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Jun 27 19:17:36.402 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:17:36.402 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Jun 27 19:17:36.402 HYPERVISOR: exec_cmd: vm start R2 
+Jun 27 19:18:07.862 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:18:07.902 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:30:33.894 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:30:33.894 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 27 19:30:34.042 VM: VM R2 shutdown.
+Jun 27 19:30:34.042 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:31:56.820 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 27 19:31:56.820 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Jun 27 19:31:56.822 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:31:56.822 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Jun 27 19:31:56.822 HYPERVISOR: exec_cmd: vm start R2 
+Jun 27 19:32:28.153 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:32:28.156 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:37:03.103 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:37:03.103 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 27 19:37:03.238 VM: VM R2 shutdown.
+Jun 27 19:37:03.240 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:37:24.537 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 27 19:37:24.537 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Jun 27 19:37:24.539 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:37:24.539 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Jun 27 19:37:24.540 HYPERVISOR: exec_cmd: vm start R2 
+Jun 27 19:37:55.939 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:37:55.944 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 19:39:02.495 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 19:39:02.495 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 27 19:39:02.628 VM: VM R2 shutdown.
+Jun 27 19:39:02.629 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 20:11:28.157 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 20:11:28.157 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 20:31:03.048 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 27 20:31:03.049 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.image-128.ghost 
+Jun 27 20:31:03.050 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 20:31:03.050 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Jun 27 20:31:03.051 HYPERVISOR: exec_cmd: vm start R2 
+Jun 27 20:31:35.075 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 20:31:35.078 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 27 20:36:35.943 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 27 20:36:35.943 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 27 20:36:36.060 VM: VM R2 shutdown.
+Jun 27 20:36:36.062 HYPERVISOR: exec_cmd: vm extract_config R2 

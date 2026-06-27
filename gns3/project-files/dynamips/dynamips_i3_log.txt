@@ -1,0 +1,12 @@
+Jun 27 19:14:13.142 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 27 19:14:13.142 HYPERVISOR: Started on IP = localhost, TCP port = 58287.
+Jun 27 19:14:13.646 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 27 19:14:13.646 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips 
+Jun 27 19:14:13.646 GENERAL: working_dir=C:\Users\User\GNS3\projects\proyek jarkom\project-files\dynamips
+Jun 27 19:14:13.646 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Jun 27 19:14:17.547 HYPERVISOR: exec_cmd: nio create_udp udp-07667675-f292-4b45-925a-e1adac73f551 20011 127.0.0.1 20010 
+Jun 27 19:14:17.549 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-07667675-f292-4b45-925a-e1adac73f551 
+Jun 27 19:14:17.573 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-07667675-f292-4b45-925a-e1adac73f551 1 
+Jun 27 19:14:18.379 HYPERVISOR: exec_cmd: nio create_udp udp-fe0634a3-84f9-4a37-ad65-94ade6a3eab0 20030 127.0.0.1 20031 
+Jun 27 19:14:18.379 HYPERVISOR: exec_cmd: ethsw add_nio Switch3 udp-fe0634a3-84f9-4a37-ad65-94ade6a3eab0 
+Jun 27 19:14:18.379 HYPERVISOR: exec_cmd: ethsw set_access_port Switch3 udp-fe0634a3-84f9-4a37-ad65-94ade6a3eab0 1 
