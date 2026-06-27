@@ -1,0 +1,21 @@
+R4# show running-config
+!
+hostname R4
+!
+interface FastEthernet0/0
+ ip address 192.168.0.6 255.255.255.252
+ no shutdown
+!
+interface FastEthernet0/1
+ ip address 192.168.0.14 255.255.255.252
+ no shutdown
+!
+interface FastEthernet1/0
+ ip address 192.168.0.17 255.255.255.252
+ no shutdown
+!
+router ospf 1
+ log-adjacency-changes
+ network 192.168.0.0 0.0.0.255 area 0
+!
+end
